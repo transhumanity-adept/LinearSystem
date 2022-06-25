@@ -6,10 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Methods\GaussSeidel" />
-    <Folder Include="Methods\Jacobi" />
-    <Folder Include="Methods\Relaxation" />
-  </ItemGroup>
-
 </Project>

@@ -8,6 +8,10 @@ public class VectorColumn : VectorBase
     {
     }
 
+    public VectorColumn(int size) : base(size)
+    {
+    }
+
     public static VectorColumn operator *(VectorColumn vector, double value)
     {
         return new VectorColumn(vector.Select(vectorValue => vectorValue * value));

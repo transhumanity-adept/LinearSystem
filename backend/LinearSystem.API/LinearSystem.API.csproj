@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services" />
+    <ProjectReference Include="..\LinearSystem.Solve\LinearSystem.Solve.csproj" />
   </ItemGroup>
 
 </Project>
